@@ -1,0 +1,121 @@
+.material-input-container-seip {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.material-input-label-seip {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  font-size: 14px;
+  color: #777;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.material-input-seip:focus+.material-input-label-seip,
+.material-input-seip:not(:placeholder-shown)+.material-input-label-seip {
+  top: -8px;
+  font-size: 13px;
+  color: #1565C0;
+   
+}
+.chakra-input {
+  border-bottom: 2px solid #2196F3!important;
+}
+.material-input-seip {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #2196F3;
+  outline: none;
+  background-color: transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.material-input-seip:focus {
+  border-bottom-color: #1565C0;
+}
+
+ 
+.material-button-seip-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1565C0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.material-button-seip:hover {
+  background-color: #1565C0;
+}
+
+.material-button-seip-pink {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #e00b69;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.material-button-seip-pink:hover {
+  background-color: #f10b63;
+}
+
+.material-button-seip-red {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #d62727;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.material-button-seip-red:hover {
+  background-color: #f1130b;
+}
+
+.container-seip {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-aling-seip {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos hijos */
+}
+
+.left-seip {
+  order: 1;  
+}
+
+.center-seip {
+  order: 2;  
+}
+
+.right-seip {
+  order: 3;  
+}
